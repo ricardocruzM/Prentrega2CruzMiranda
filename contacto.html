@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/contacto.css">
+    <title>Rockstarttoo</title>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="./assets/img/logo1.JPG" alt="logo de rockstarttoo"></a>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./galery.html">Galería</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <div class="formulario">
+            <form action="#">
+                <h1>Contáctanos</h1>
+                <label>Nombre Completo: </label>
+                <input name='nombre' type='text'/><br><br>
+                <label>Genero: </label>
+                <select name="select">
+                    <option value="value1">Másculino</option> 
+                    <option value="value2" selected>Femenino</option>
+                    <option value="value2" selected>Otro</option>
+                </select><br><br>
+                <label>Edad: </label>
+                <input type='checkbox' name='edad' value='15-19' /> 15-19
+                <input type='checkbox' name='edad' value='20-39' /> 20-39
+                <input type='checkbox' name='edad' value='40-59' /> 40-59
+                <input type='checkbox' name='edad' value='60-79' /> 60-79<br><br>
+                <label>Email: </label>
+                <input name='nombre' type='email'/><br><br>
+                <label>Alcaldía: </label>
+                <select id="dino-select">
+                    <optgroup label="Alcaldía">
+                        <option>Iztapalapa</option>
+                            <option>Coyoacán</option>
+                            <option>Miguel Hidalgo</option>
+                            <option>Benito Juárez</option>
+                            <option>Iztacalco</option>
+                            <option>Cuauhtemóc</option>
+                    </optgroup>
+                </select><br><br>
+                <label>Teléfono de contacto: </label>
+                <input type="tel" name="telefono" placeholder="(a 10dígitos) Número"><br><br>
+                <textarea name="textarea" rows="10" cols="50">Comentarios</textarea><br>
+                <input type="submit" value="Enviar" /><br><br>
+            </form>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="informacion-footer">
+            <a href="#">Ayuda</a>
+            <a href="./nosotros.html">Nosotros</a>
+            <a href="#">Términos y Condiciones</a>
+            <a href="#">Política de Privacidad</a>
+            <a href="./contacto.html">Contacto </a>
+        </div>
+        <div class="pie">
+            Miranda Web Todos los derechos Reservados &copy;
+        </div>
+    </footer>
+</body>
+</html>
