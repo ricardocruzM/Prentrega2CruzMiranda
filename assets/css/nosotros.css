@@ -88,6 +88,43 @@
     justify-content: center;
     text-align: center;
     padding: 30px;
+<<<<<<< HEAD
+=======
+}
+/*slider*/
+
+.carousel-item{
+    width: 100%;
+    height: 100vh;
+}
+.slide__info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.slide__info h2{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    font-family: 'Permanent Marker';
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px black;
+    padding-top: 50px;
+    justify-content: center;
+}
+.slide__info p{
+    display: flex;
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: rgb(253, 255, 252);
+    text-align: center;
+    padding: 300px;
+>>>>>>> fixed/nosotros-slide
 }
 /*INICIO DE FOOTER*/
 .footer{
@@ -144,3 +181,4 @@
     justify-content: center;
     align-items: center;
 }
+
