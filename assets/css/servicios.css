@@ -98,6 +98,18 @@
     align-items: center;
    /* justify-content: space-between;*/
 }
+.init h2{
+    font-family: 'Permanent Marker';
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+.end h2{
+    font-family: 'Permanent Marker';
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
 .end{
     display: flex;
 }
@@ -112,20 +124,62 @@
 .init .col-4{
     justify-content: start;
 }
-.init .services__img{
+/*.init .services__img{
     height: 500px;
     background: linear-gradient(90deg, #ffffff 2%, transparent 90%),url(../img/img-4.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}*/
+.services__img__old{
+    height: 500px;
+    background: linear-gradient(90deg, #ffffff 2%, transparent 90%),url(../img/old-chool-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.end .services__img{
+.services__img__puntillismo{
+    height: 500px;
+    background: linear-gradient(270deg, #ffffff 2%, transparent 90%),url(../img/puntillismo-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.services__img__oriental{
+    height: 500px;
+    background: linear-gradient(90deg, #ffffff 2%, transparent 90%),url(../img/oriental-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.services__img__mandalas{
+    height: 500px;
+    background: linear-gradient(270deg, #ffffff 2%, transparent 90%),url(../img/mandalas-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.services__img__realismo{
+    height: 500px;
+    background: linear-gradient(90deg, #ffffff 2%, transparent 90%),url(../img/ralismo-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.services__img__anime{
+    height: 500px;
+    background: linear-gradient(270deg, #ffffff 2%, transparent 90%),url(../img/anime-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*.end .services__img{
     height: 500px;
     background: linear-gradient(270deg, #ffffff 2%, transparent 90%),url(../img/img-3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
+}*/
 /** Iniciio Footer **/
 .footer{
     display: flex;
