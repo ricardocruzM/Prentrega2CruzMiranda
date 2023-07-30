@@ -79,7 +79,7 @@
 .container-mine__information__style{
     width: 70%;
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 25px;
     font-weight: lighter;
     letter-spacing: 2px;
     color: rgb(253, 255, 252);
@@ -107,6 +107,9 @@
     background-position: center;
     background-size: 110% 140%;
     background-repeat: no-repeat;
+}
+.services__info p{
+    font-size: 20px;
 }
 
 .init .col-4{
